@@ -481,7 +481,6 @@ window.addEventListener('load', function() {
       'addEventListener' in window &&
       'forEach' in Array.prototype) {
     document.documentElement.classList.add('mdl-js');
-    componentHandler.upgradeAllRegistered();
   } else {
     /**
      * Dummy function to avoid JS errors.
